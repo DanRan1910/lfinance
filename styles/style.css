@@ -1,0 +1,138 @@
+main{
+    margin: 0;
+}
+html{
+    background-color: #252b42;
+}
+
+header{
+    margin-top: -8px;
+    background-color: #252b42;
+    width: 986px;
+    height: 96px;
+    margin-left: 263px;
+}
+
+.menu-Header{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.imgLogo{
+    padding: 30px 15px;
+}
+
+.menu-Header-content{
+    width: 280px;
+    margin-top: 20px;
+}
+
+.menu-Header-content ul{
+    display: flex;
+    gap: 21px;
+}
+
+.menu-Header-content ul li{
+    color: #FFFFFF;
+}
+
+.botoes-Header{
+    display: flex;
+}
+
+.btnMember button{
+    margin-top: 20px;
+    background-color: #23a6f0;
+    color: white;
+    width: 220px;
+    height: 52px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btnLogin{
+    width: 43px; 
+    margin-top: 35px;
+    margin-right: 15px; 
+    background-color: #252b42;
+    color: white;
+    text-decoration: none;
+}
+
+/*--------------------------------------main-----------------------------*/
+
+.main-Content{
+    padding: 0px 57px;
+    width: 1197.92px;
+    height: 664px;
+    justify-content: center;
+    display: flex;
+}
+
+.title-main h1{
+    font-weight: bold;
+    font-size: 58px;
+    width: 480px;
+    height: 240px;
+    color: #FFFFFF;
+}
+
+.title-main p{
+    margin-top: 35px;
+    width: 316px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.btn-learn{
+    margin-top: 35px;
+    background-color: #252b42;
+    color: white;
+    width: 157px;
+    height: 52px;
+    border-radius: 37px;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+}
+
+.btn-Get{
+    margin-top: 35px;
+    background-color: #23a6f0;
+    color: white;
+    width: 187px;
+    height: 52px;
+    border-radius: 37px;
+    text-decoration: none;
+}
+
+.img-Main{
+    width: 481px;
+}
+
+
+/*--------------------------------------fim main-----------------------------*/
+/*--------------------------------------Strategy-----------------------------*/
+
+.title-Strategy{
+    width: 618px;
+    margin-left: 530px;
+    text-align: center;
+}
+
+.title-Strategy h2{
+    width: 451px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.title-Strategy p{
+    width: 470px;
+    font-size: 14px;
+    color:  #737373;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+
+
