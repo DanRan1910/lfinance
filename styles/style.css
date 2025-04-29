@@ -2,6 +2,7 @@ main{
     margin: 0;
 }
 html{
+    font-family: Montserrat;
     background-color: #252b42;
 }
 
@@ -12,7 +13,6 @@ header{
     height: 96px;
     margin-left: 263px;
 }
-
 .menu-Header{
     display: flex;
     justify-content: center;
@@ -33,7 +33,14 @@ header{
     gap: 21px;
 }
 
-.menu-Header-content ul li{
+
+
+.menu-Header-content   a{
+    text-decoration: none;
+
+}
+.menu-Header-content li{
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -124,6 +131,7 @@ header{
     width: 451px;
     font-size: 40px;
     color: #FFFFFF;
+   
 }
 
 .title-Strategy p{
@@ -134,5 +142,43 @@ header{
     line-height: 20px;
 }
 
+.strategy-Content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1046px;
+    height: 308px;
+    gap: 30px;
+    padding: 24px 233px;
+}
+.cards-Strategy img{
+    padding: 45px 25px 0px;
+    width: 44.33px;
+    height: 39.33px;
+}
 
 
+.cards-Strategy{
+    color: #FFFFFF;
+    display: flex;
+    width: 328px;   
+    border: 1px solid #f2f2f2;
+}
+
+.c-stra-content{
+    padding: 25px 0px;
+}
+.c-stra-content h2{
+    height: 24px;
+    width: 167px;
+}
+.c-stra-content p{
+    width: 213px;
+}
+
+/*--------------------------------------Fim Strategy-----------------------------*/
+/*--------------------------------------Clients Say-----------------------------*/
+
+
+
+
+.client-Say{}
