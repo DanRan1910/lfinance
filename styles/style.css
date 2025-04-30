@@ -178,7 +178,96 @@ header{
 /*--------------------------------------Fim Strategy-----------------------------*/
 /*--------------------------------------Clients Say-----------------------------*/
 
+.cliente-Say{
+    width: 1050px;
+    margin-left: 195px;
+}
+
+.cliente-Say img{
+    margin-left: 150.5px;
+    margin-top: 80px;
+    margin-bottom: 112px;
+}
+
+.Say-content{
+    margin-left: 221px;
+    margin-top: 66px;
+    width: 607px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Say-content h2{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.Say-content p{
+    vertical-align: top;    
+    margin-left: 68.5px;
+    width: 440px;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+
+/*--------------------------------------Fim Clients Say-----------------------------*/
+/*--------------------------------------Our-App-----------------------------*/
+
+.Our-App{
+    width: 1050px;
+    height: 339px;
+    margin-left: 195px;
+      
+}
+
+
+.Our-App-tittle{
+        margin-left: 221px;
+        margin-top: 66px;
+        width: 607px;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+
+.Our-App h2{
+    font-size: 40px;
+    color: #FFFFFF;
+}
 
 
 
-.client-Say{}
+.Our-App p{
+    vertical-align: top;    
+    margin-left: 68.5px;
+    width: 440px;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.app-Cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 947px;
+    height: 82px;
+    gap: 10px;
+    padding: 51px 50px;
+}
+
+.cards-App-content{
+    width: 214px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #737373;
+}
+
+.cards-App-content img{
+    padding: 28px 22px;
+}
+
+.cards-App-content p{
+    margin-left: 86px;
+    display: flex;
+    margin-top: -50px;
+}
