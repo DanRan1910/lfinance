@@ -157,6 +157,12 @@ header{
 }
 
 
+.cards-Strategy:hover{
+    box-shadow: 2px 2px 2px #FFFFFF;
+    transition: 0.5s;
+    margin-top: 2px;
+    margin-left: 2px;
+}
 .cards-Strategy{
     color: #FFFFFF;
     display: flex;
@@ -255,6 +261,9 @@ header{
     padding: 51px 50px;
 }
 
+.cards-App-content:hover{
+    box-shadow: 2px 4px 8px #0c0c0c;
+}
 .cards-App-content{
     width: 214px;
     color: #FFFFFF;
@@ -311,6 +320,8 @@ color: #FFFFFF;
 
 .card-Pricing:hover{
     box-shadow: 2px 4px 8px #FFFFFF;
+    transition: 1s;
+    margin-top: 10px;
 }
 .card-Pricing{
     display: flex;
