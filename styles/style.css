@@ -180,7 +180,7 @@ header{
 
 .cliente-Say{
     width: 1050px;
-    margin-left: 195px;
+    margin-left: 231px;
 }
 
 .cliente-Say img{
@@ -217,7 +217,7 @@ header{
 .Our-App{
     width: 1050px;
     height: 339px;
-    margin-left: 195px;
+    margin-left: 231px;
       
 }
 
@@ -240,7 +240,7 @@ header{
 
 .Our-App p{
     vertical-align: top;    
-    margin-left: 68.5px;
+    margin-left: 88.5px;
     width: 440px;
     margin-top: -10px;
     font-size: 14px;
@@ -263,11 +263,161 @@ header{
 }
 
 .cards-App-content img{
-    padding: 28px 22px;
+    padding: 26px 22px;
 }
 
 .cards-App-content p{
     margin-left: 86px;
     display: flex;
     margin-top: -50px;
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------Pricing------------------------------------------*/
+
+
+.Pricing{
+    width: 1050px;
+    height: 766px;
+    margin-left: 231px;
+}
+.Pricing-tittle{
+    margin-left: 221px;
+    margin-top: 66px;
+    width: 607px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.Pricing-tittle h2{
+font-size: 40px;
+color: #FFFFFF;
+}
+
+.pricing-Cards{
+    margin-top: 96px;
+    display: flex;
+    width: 1050px;
+    gap: 30px;
+}
+
+
+.card-Pricing:hover{
+    box-shadow: 2px 4px 8px #FFFFFF;
+}
+.card-Pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 508px;
+    height: 243px;
+    background-color: #FFFFFF;
+    border-radius: 10px;   
+}
+
+
+.text-Pricing{
+    margin-left: 49px;
+    margin-top: -25px;
+    width: 217px;
+    height: 143px;
+}
+
+.text-Pricing h3{
+    color: #23a6f0;
+    font-size: 24px;
+    text-align: start;
+}
+
+.text-Pricing p{
+    color: #737373;
+    font-size: 14px;
+}
+
+.preço-Pricing{
+    margin-top: -55px;
+    margin-left: 30px;
+    display: flex;
+    width: 116px;
+}
+
+.preço-Pricing p:nth-of-type(1){
+    font-size: 40px;
+    margin-top: -35px;
+    margin-bottom: -40px;
+    color: #23a6f0;
+}
+
+.preço-Pricing p:nth-of-type(2){
+    color: #23a6f0;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.preço-Pricing p:nth-of-type(3){
+    width: 70px;
+    color: #23a6f0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+
+
+.card-Pricing button{
+    background-color: #23a6f0;
+    color: white;
+    width: 163px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: -80px;
+    margin-left: -115px;
+    
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+
+
+/*---------------------------Branches-All------------------------------------------------*/
+
+
+
+
+.Branches-All{
+    gap: 30px;
+    display: flex;
+    margin-top: 30px;
+    width: 1048px;
+    height: 329px;
+    margin-left: 232px;
+}
+
+.Branches-tittle{
+    color: #FFFFFF;
+    width: 602px;
+}
+
+.Branches-All h2{
+    width: 476px;
+    font-size: 40px;
+}
+
+.Branches-All p{
+    width: 455px;
+    font-size: 14px;
+}
+
+.Branches-All img{
+    width: 468px;
+    height: 269.1px;
 }
