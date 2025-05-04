@@ -432,3 +432,134 @@ color: #FFFFFF;
     width: 468px;
     height: 269.1px;
 }
+
+
+
+/*--------------------------Formulário-------------*/
+
+
+.appointment {
+    padding: 101px 317.5px;
+    display: flex;
+}
+
+.form-appointment {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 40px 50px;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.form-appointment h2 {
+    color: #252B42;
+    font-size: 24px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+}
+
+input {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    padding: 11px 21px;
+    border-radius: 5px;
+    width: 507px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #737373;
+}
+
+select {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    padding: 11px 21px;
+    border-radius: 5px;
+    width: 550px;
+    color: #737373;
+    -webkit-appearance: none;
+    background-image: url(/IFinance/src/assets/img/select-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+form button {
+    margin-top: 40px;
+    font-size: 14px;
+    padding: 15px 40px;
+    background-color: #23A6F0;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-content {
+    padding: 80px 231px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.footer-nav-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-nav-columns h2 {
+    margin-left: 35px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: start;
+}
+
+.footer-nav-columns p {
+    margin-left: 35px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-left: 35px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-nav-columns ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav-columns a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.copyright {
+    background-color: #FFFFFF;
+    padding: 25px 235px;
+    text-align: center;
+    text-transform: capitalize;
+}
